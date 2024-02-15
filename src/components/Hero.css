@@ -16,28 +16,15 @@
     height: 50vh;
 }
 
-.background-top,
-.background-bottom{
+.background-top{
     position: absolute;
+    height: 100%;
     width: 100%;
-    background: url(/public/background1.avif);
+    background: var(--background2);
     background-size: cover;
-}
-
-.background-top {
-    height: 44%;
-    top: 0;
     background-position: top;
     z-index: 1;
 }
-
-.background-bottom {
-    height: 56%;
-    bottom: 0;
-    background-position: center;
-    z-index: 5;
-}
-
 .text-title,
 .text-title2{
     text-align: center;
@@ -58,19 +45,21 @@
 .movetext2{
     color: #000;
     font-size: 8rem;
-    letter-spacing: 10vh;
-    font-family: 'Telma-Medium';
+    letter-spacing: 5px;
+    font-family: 'Tanker';
+    text-decoration: line-through;
 }
 
 .text-top,
 .text-bottom{
     color: #fff;
     font-size: 10rem;
-    font-family: 'Telma-Medium';
+    font-family: 'Tanker';
     left: 50%;
     width: 100%;
     text-align: center;
     transform: translateX(-50%);
+    overflow: hidden;
 }
 
 .text-top{
@@ -80,7 +69,8 @@
 
 .text-bottom{
     display: flex;
-    gap: 300px;
+    justify-content: center;
+    gap: 20%;
     top: 55%;
     z-index: 6;
 }

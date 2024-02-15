@@ -34,23 +34,23 @@ const Hero = () => {
     const LoaderHero = () => {
 
       gsap.set(".movetext",{
-        x: 1480,
+        x: "100%",
       })
 
       gsap.set(".movetext2",{
-        x: -1440
+        x: "-100%"
       })
 
       gsap.to(".movetext",{
         delay: 1,
         duration: 3.8,
-        x: -1440
+        x: "-100%"
       })
 
       gsap.to(".movetext2",{
         delay: 1,
         duration: 3.8,
-        x: 1480
+        x: "100%"
       })
 
       gsap.to(".background-container",{
@@ -96,7 +96,6 @@ const Hero = () => {
     <section className="hero" ref={heroRef}>
       <div className="background-container">
         <div className="background-top"></div>
-        <div className="background-bottom"></div>
       </div>
       <div className="text-title">
         <h1 className="movetext">Isla Brava</h1>

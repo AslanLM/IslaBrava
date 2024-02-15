@@ -4,6 +4,7 @@
   --background1: url("https://images.unsplash.com/photo-1582761370934-3e7a1cb2be33?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --background2: url("https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   --img1: url("https://images.unsplash.com/photo-1523606772308-64a28db0ef2c?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  --img2: url("https://images.unsplash.com/photo-1611858447026-b16c9351c9df?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 
 }
 
@@ -11,23 +12,6 @@
   font-family: Tanker;
   src: url(fonts/Tanker.ttf);
 }
-
-@font-face {
-  font-family: Telma-Light;
-  src: url(fonts/Telma-Light.ttf);
-}
-
-@font-face {
-  font-family: Telma-Medium;
-  src: url(fonts/Telma-Medium.ttf);
-}
-
-@font-face {
-  font-family: Telma-Bold;
-  src: url(fonts/Telma-Bold.ttf);
-}
-
-
 
 * {
   margin: 0;

@@ -66,7 +66,8 @@ const Header = () => {
             <div className="dropdown-content">
               <a href="#">Men</a>
               <a href="#">Women</a>
-              <a href="#">Winter</a>
+              <a href="#">T-shirt</a>
+              <a href="#">Hoodies</a>
             </div>
           </li>
           <li className="dropdown">

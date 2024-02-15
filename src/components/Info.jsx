@@ -29,10 +29,10 @@ const Info = () => {
       <div className="info-wrap">
         <div className="img-info">
           <div className="img-info-container">
-            <img src="https://images.unsplash.com/photo-1523606772308-64a28db0ef2c?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img surfing info" />
+            <img src="https://images.unsplash.com/photo-1523606772308-64a28db0ef2c?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img surfing Unsplash" />
           </div>
           <div className="img-info-container2">
-            <img src="https://images.vans.com/is/image/VansBrand/HO23%5FOmni%5FSportLow%5F0N5A7339%2DDesktop%2D334x412?$fullres$" alt="vans robada" />
+            <img src="https://images.unsplash.com/photo-1611858447026-b16c9351c9df?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img skate Unsplash" />
           </div>
         </div>
         <div className="info-shop">

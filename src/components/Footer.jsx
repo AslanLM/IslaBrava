@@ -104,7 +104,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copy">
-        <h3>AslanLM 2024 &copy; All rights reserved ‍‍‍🌊</h3>
+        <h3>by: AslanLM 2024 ‍‍‍🌊</h3>
       </div>
     </footer>
   );
