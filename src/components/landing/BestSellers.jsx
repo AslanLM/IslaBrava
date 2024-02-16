@@ -1,11 +1,11 @@
 import React from "react";
-import "./NewProducts.css";
+import "./Products.css";
 import Product from "./Product";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const NewProducts = () => {
+const BestSellers = () => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -30,7 +30,7 @@ const NewProducts = () => {
   };
 
   return (
-    <div className="newproducts">
+    <div className="bestsellers">
       <h1 className="subtitle">New Products</h1>
       <div className="product-container">
         <Slider {...settings}>
@@ -49,4 +49,4 @@ const NewProducts = () => {
   );
 };
 
-export default NewProducts;
+export default BestSellers;

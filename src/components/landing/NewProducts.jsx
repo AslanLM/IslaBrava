@@ -1,11 +1,11 @@
 import React from "react";
-import "./NewProducts.css";
+import "./Products.css";
 import Product2 from "./Product2";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const Category = () => {
+const NewProducts = () => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -30,7 +30,7 @@ const Category = () => {
   };
 
   return (
-    <div className="category">
+    <div className="newproducts">
       <h1 className="subtitle">Other Collection</h1>
       <div className="product-container">
         <Slider {...settings}>
@@ -49,4 +49,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default NewProducts;

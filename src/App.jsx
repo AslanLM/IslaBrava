@@ -1,12 +1,8 @@
 import { useEffect } from 'react'
 import './App.css'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import NewProducts from './components/NewProducts'
-import Info from './components/Info'
-import Category from './components/Category'
-import PreFooter from './components/preFooter'
 import Footer from './components/Footer'
+import Landing from './components/landing/Landing'
 
 function App() {
 
@@ -21,14 +17,10 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
-      <main>
-      <NewProducts/>
-      <Info/>
-      <Category/>
-      <PreFooter/>
+      <Landing/>
       <Footer/>
-      </main>
+
+      
     </>
   )
 }
